@@ -1,0 +1,203 @@
+/*@font-face {
+    font-family: 'Bold';
+    src: url(futura/Futura\ Heavy\ font.ttf);
+   
+}
+@font-face {
+    font-family: 'light';
+    src: url(futura/Futura\ Extra\ Black\ font.ttf);
+}
+@font-face {
+    font-family: 'book';
+    src: url(futura/unicode.futurab.ttf);
+}
+body
+{
+    display:block;
+    position: relative;
+    font-family: 'light';
+    color: black;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(223, 223, 223);
+    
+}
+.nav{
+    background-color:white;
+    margin-top:-16px;
+    margin-left: -10px;
+    
+    z-index: 12;
+    
+    
+    
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+   
+    
+}
+.nav ul li{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'book';
+    color: black;
+}
+#i{
+    margin-right: 720px;
+    margin-top: -10px;
+}
+.m1
+{
+    background-image: url('assets/Team\ Collaboration.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 600px; 
+    
+    
+}
+.m2
+{
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    margin-top: 21px;
+}
+*//* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Fonts */
+@font-face {
+    font-family: 'Bold';
+    src: url('futura/Futura Heavy font.ttf');
+}
+@font-face {
+    font-family: 'light';
+    src: url('futura/Futura Extra Black font.ttf');
+}
+@font-face {
+    font-family: 'book';
+    src: url('futura/unicode.futurab.ttf');
+}
+
+/* Body Styling */
+body {
+    font-family: 'light';
+    color: black;
+    background-color: rgb(223, 223, 223);
+}
+
+/* Navigation Bar */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+/* Navigation List */
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-right: 50px;
+}
+
+/* Navigation Items */
+.nav ul li {
+    margin: 0 20px;
+}
+
+/* Logo */
+#i {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'book';
+    color: black;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.m1 {
+    background-image: url('assets/Team Collaboration.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    padding-top: 80px; /* Adjust based on navbar height */
+}
+
+/* Content Box */
+    .m2 {
+        background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+        width: 500px;
+        height: 450px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        backdrop-filter: blur(10px); /* Glass effect */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+        font-family: sans-serif;
+    }
+    
+
+.m2 h1 {
+    font-size: 24px;
+    
+}
+
+.m2 p {
+    font-size: 16px;
+    
+}
+.t{
+    background: transparent;
+    border: none;
+    color:grey;
+    font-size: 18px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-right: -430px;
+    margin-top: -10px;
+}
+
+.t:hover {
+    color: red;
+}
+
+
+
+
